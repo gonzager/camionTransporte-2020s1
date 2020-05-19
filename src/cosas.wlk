@@ -10,3 +10,8 @@ object bumblebee {
 	method nivelPeligrosidad() { return if (transformadoEnAuto) { 15 } else { 30 }  }
 	method transformar() { transformadoEnAuto = not transformadoEnAuto }
 }
+
+object misil {
+	method peso() { return 800 }
+	method nivelPeligrosidad() { return 0  }
+}
